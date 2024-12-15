@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(238, 237, 237);
+}
+.progressbar{
+    height: 3px;
+    animation: progressbar 2s ease-out 1;
+}
+@keyframes progressbar {
+    from{
+        width: 0vw;
+        background-color: white;
+    }
+    to{
+        width: 100vw;
+        background-color: red;
+        display: none;
+    }
+}
+header{
+    background-color: dodgerblue;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+nav{
+    display: flex;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+img{
+    height: 110px;
+    width: 110px;
+}
+li{
+    display: inline;
+    text-transform: uppercase;
+    padding: 20px;
+    font-family: Poppins;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+    color: dodgerblue;
+}
+ul{
+    display: flex;
+    padding-top: 25px;
+    padding-inline: 45px;
+    font-size: 16px;
+}
+input{
+    border: 3px solid purple;
+    margin: 30px;
+    border-radius: 25px;
+    padding: 15px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.profile{
+    height: 50px;
+    width: 50px;
+    margin: 30px 35px;
+}
+.imgcontainer{
+    margin: 30px 80px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 65vh;
+    background-image: url('Images/main_image.webp');
+    background-size: cover;
+}
+.content{
+    height: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Poppins ;
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 70vh;
+}
+.box1{
+    height: 53vh;
+    width: 15vw;
+    border: thick double rgb(175, 174, 174);
+    border-radius: 20px;
+    margin-top: 65px;
+    overflow: hidden;
+}
+.box2{
+    height: 53vh;
+    width: 15vw;
+    border: thick double rgb(175, 174, 174);
+    border-radius: 20px;
+    margin-top: 65px;
+    overflow: hidden;
+}
+.box3{
+    height: 53vh;
+    width: 15vw;
+    border: thick double rgb(175, 174, 174);
+    border-radius: 20px;
+    margin-top: 65px;
+    overflow: hidden;
+}
+.box4{
+    height: 53vh;
+    width: 15vw;
+    border: thick double rgb(175, 174, 174);
+    border-radius: 20px;
+    margin-top: 65px;
+    overflow: hidden;
+}
+.img1{
+    height: 44vh;
+    border-bottom: 2px solid black;
+    background-image: url('Images/prod-img1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img2{
+    height: 44vh;
+    border-bottom: 2px solid black;
+    background-image: url('Images/prod-img2.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img3{
+    height: 44vh;
+    border-bottom: 2px solid black;
+    background-image: url('Images/prod-img3.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img4{
+    height: 44vh;
+    border-bottom: 2px solid black;
+    background-image: url('Images/prod-img4.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.addtocart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    width: 15vw;
+    background-color: rgb(0, 0, 0);
+    color: cyan;
+}
+.categories{
+    height: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Poppins ;
+}
+.img5{
+    height: 44vh;
+    border-bottom: 2px solid black;
+    background-image: url('Images/img5.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img6{
+    height: 44vh;
+    border-bottom: 2px solid black;
+    background-image: url('Images/img6.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img7{
+    height: 44vh;
+    border-bottom: 2px solid black;
+    background-image: url('Images/img7.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img8{
+    
+    height: 44vh;
+    border-bottom: 2px solid black;
+    background-image: url('Images/img8.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.browseitems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    width: 15vw;
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+}
+.browseitems:hover{
+    background-color: rgb(119, 121, 124);;
+    color: white;
+}
+footer{
+    background-color: black;
+    height: 20vh;
+    overflow: hidden;
+}
+.spotus{
+    padding-top: 20px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    color: aqua;
+    height: 20px;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.i1:hover{
+    animation: rotate 0.3s linear 1;
+}
+footer li{
+    display: inline;
+    padding: 25px;
+}
+li a img{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 20px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtocart:hover{
+    background-color: rgb(119, 121, 124);
+    color: white;
+}
